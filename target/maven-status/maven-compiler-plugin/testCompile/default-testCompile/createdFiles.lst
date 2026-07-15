@@ -1,0 +1,3 @@
+com\library\libraryapi\LibraryApiApplicationTests.class
+com\library\libraryapi\LibraryApiIntegrationTests.class
+com\library\libraryapi\JsonTestUtils.class
