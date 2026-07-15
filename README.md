@@ -39,28 +39,7 @@ mvn spring-boot:run
 
 A API sobe em `http://localhost:8080`.
 
-## Swagger
-
-Com a aplicacao rodando, acesse:
-
-- Swagger UI: `http://localhost:8080/swagger-ui.html`
-- OpenAPI JSON: `http://localhost:8080/v3/api-docs`
-
-No Swagger UI, abra cada grupo de endpoints, clique em `Try it out`, preencha o JSON e clique em `Execute`.
-Ele mostra a URL chamada, o status HTTP retornado e o corpo JSON da resposta.
-
-Para demonstrar o CRUD completo no Swagger:
-
-1. Crie um livro em `POST /api/books`.
-2. Liste os livros em `GET /api/books`.
-3. Atualize o livro em `PUT /api/books/{id}`.
-4. Remova o livro em `DELETE /api/books/{id}`.
-5. Repita o fluxo para usuarios em `/api/users`.
-6. Para emprestimos, crie primeiro um livro e um usuario, depois use `POST /api/loans` e `POST /api/loans/{id}/return`.
-
-Os dados ficam persistidos no PostgreSQL configurado em `application.properties`. Se voce reiniciar a API sem apagar o volume do Docker, os registros continuam no banco.
-
-## Endpoints
+# Entidades
 
 ### Livros
 
