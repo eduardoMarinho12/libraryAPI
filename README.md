@@ -39,7 +39,7 @@ mvn spring-boot:run
 
 A API sobe em `http://localhost:8080`.
 
-# Entidades
+# Swagger
 
 ### Livros
 
