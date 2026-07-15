@@ -5,7 +5,6 @@ API REST em Java com Spring Boot e PostgreSQL para gerenciar livros, usuarios e 
 ## Requisitos
 
 - Java 21
-- Maven 3.9+
 - PostgreSQL 12+
 
 ## Banco de dados
@@ -40,7 +39,7 @@ mvn spring-boot:run
 
 A API sobe em `http://localhost:8080`.
 
-## Swagger usado na avaliacao
+## Swagger
 
 Com a aplicacao rodando, acesse:
 
